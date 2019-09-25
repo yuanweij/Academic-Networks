@@ -10,10 +10,10 @@ library("wordcloud")
 library("tm")
 
 
-consumer_key <- 'VPXR0O6pTFZvRWL95fKp736s4'
-consumer_secret <- '5Bb1TDnsCcC1U0BfHfALucPAdugFmK6G9wgvyElPue9LDJo5Us'
-access_token <- '1143210205854892032-L9WgZxHZzLGfqFr6n9J4gqP0bQBTrf'
-access_secret <- '8DMaWUl34MDvPRXzLwnpMdwaUhaFe9HMBynUy637ZvWlr'
+consumer_key <- 
+consumer_secret <- 
+access_token <- 
+access_secret <- 
 
 setup_twitter_oauth(consumer_key,
                     consumer_secret,
@@ -21,7 +21,7 @@ setup_twitter_oauth(consumer_key,
                     access_secret)
 
 token <- create_token(
-  app = "Academic_network",
+  app = "",
   consumer_key,
   consumer_secret,
   access_token,
